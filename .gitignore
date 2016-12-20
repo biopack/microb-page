@@ -1,0 +1,7 @@
+node_modules
+.tags*
+logs/*
+!logs/.gitkeep
+.cache
+npm-debug.log
+data/

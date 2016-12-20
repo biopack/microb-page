@@ -1,0 +1,9 @@
+{
+    "apps" : [{
+        "name"        : "microb-page",
+        "script"      : "./lib/app.js",
+        "kill_timeout" : 3000,
+        "error_file"      : "./logs/pm2-err.log",
+        "out_file"        : "./logs/pm2-out.log"
+    }]
+}

@@ -1,0 +1,44 @@
+{
+    "name": "microb-page",
+    "version": "1.0.0-alpha.4",
+    "description": "Example of Microb framework app",
+    "keywords": [
+        "Microb","mvc","framework","web","example"
+    ],
+    "bugs": "https://github.com/biopack/microb-page/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/biopack/microb-page.git"
+    },
+    "license": "GPL-3.0",
+    "author": "scippio",
+    "main": "app.js",
+    "types": "./types/*",
+    "scripts": {
+        "start": "node ./lib/app.js",
+        "test": "microb test",
+        "deploy": "gulp deploy",
+        "deploy-dev": "MICROB_ENVIRONMENT=dev node ./lib/app.js"
+    },
+    "dependencies": {
+        "app-root-path": "^2.0.1",
+        "microb": "1.0.0-alpha.4",
+        "cellpack-restify": "1.0.0-alpha.4",
+        "cellpack-router": "1.0.0-alpha.4",
+        "cellpack-session": "1.0.0-alpha.4",
+        "cellpack-controller": "1.0.0-alpha.4",
+        "cellpack-swig": "1.0.0-alpha.4",
+        "bioforms": "1.0.0-alpha.4"
+    },
+    "devDependencies": {
+        "@types/gulp": "latest",
+        "@types/gulp-typescript": "latest",
+        "@types/merge2": "latest",
+        "@types/bluebird": "latest",
+        "@types/app-root-path": "latest",
+        "gulp": "^3.9.1",
+        "gulp-typescript": "^3.1.3",
+        "typescript": "^2.0.9",
+        "merge2": "^1.0.2"
+    }
+}

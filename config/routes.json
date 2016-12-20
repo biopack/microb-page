@@ -1,0 +1,18 @@
+[
+    {
+        "name": "homepage",
+        "host": "microb.loc|localhost",
+        "path": "/:gi",
+        "methods": [ "get", "post" ],
+        "options": {
+            "controller": "default",
+            "action": "homepage"
+        },
+        "requirements": {
+            "gi": "\\d*"
+        },
+        "defaults": {
+            "gi": 0
+        }
+    }
+]
